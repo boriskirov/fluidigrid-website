@@ -2,8 +2,8 @@
     /* Grid related var*/
     --grid-tc-12: repeat(12, 1fr);
     --grid-tc-1: repeat(1, 1fr);
-    --grid-gap: calc(var(--fontSize) * 0.25);
-    }
+    --grid-gap: calc(var(--fontSize) * 4);
+}
     
     /* Normalizer */
     * {

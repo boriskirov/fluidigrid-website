@@ -1,8 +1,6 @@
-import styles from '../styles/Home.module.css'
-
 export default function ExampleGrid() {
     return <div class="cs5 ce12">
-    <grid>
+    <grid class="example">
         <div class="cs1 ce1 demo">
             <p>1-1</p>
         </div>
