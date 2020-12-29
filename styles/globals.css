@@ -1,15 +1,43 @@
+:root {
+  --space-s: 4px;
+  --space-m: 8px;
+  --space-l: 16px;
+  --space-xl: 20px;
+  --space-xxl: 24px;
+  --space-xxxl: 32px;
+  --space-xxxxl: 48px;
+  --space-xxxxxl: 64px;
+}
+
+
 html,
 body {
-  padding: 0;
+  padding: var(--space-xxxl);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  overflow-x: hidden;
+  background: black;
+  color: white;
+  transition: all 200ms;
+  will-change: background-color;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+
+.demo {
+  border: 4px solid white;
+    padding: 1vw;
+}
+
+.demo > p {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
 
 * {
   box-sizing: border-box;
