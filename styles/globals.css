@@ -54,7 +54,7 @@ footer {
 }
 
 .demo {
-  border: 4px solid var(--light-color);
+  background-color: var(--accent-color);
   padding: 1vw 0;
 }
 
@@ -65,8 +65,8 @@ footer {
 }
 
 grid.example {
-  grid-column-gap: var(--space-s);
-  grid-row-gap: var(--space-s);
+  grid-column-gap: var(--space-l);
+  grid-row-gap: var(--space-l);
 }
 
 button {

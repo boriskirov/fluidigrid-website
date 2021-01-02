@@ -110,6 +110,22 @@ export default function Home() {
             sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
           ></iframe>
         </div>
+        <div className="cs5 ce12">
+          <iframe
+            scrolling="no"
+            title="Fluidigrid"
+            src="https://codepen.io/bkirov/embed/VwKXeKj?height=265&theme-id=dark&default-tab=css,result"
+            frameborder="no"
+            loading="lazy"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen{' '}
+            <a href="https://codepen.io/bkirov/pen/VwKXeKj">Fluidigrid</a> by
+            Boris Kirov (<a href="https://codepen.io/bkirov">@bkirov</a>) on{' '}
+            <a href="https://codepen.io">CodePen</a>.
+          </iframe>
+        </div>
       </grid>
 
       <footer>
