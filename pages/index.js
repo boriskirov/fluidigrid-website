@@ -1,17 +1,39 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import ExampleGrid from '../components/example';
+import Logo from '../components/logo';
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Fluidigrid</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
+        <meta name="description" content="CSS Grid system" />
+        <meta property="og:type" content="website" />
+        <meta name="og:title" property="og:title" content="Fluidigrid" />
+        <meta
+          name="og:description"
+          property="og:description"
+          content="Simple and lightweight CSS grid system for constructing responsive and fluid layouts."
+        />
+        <meta property="og:site_name" content="Fluidigrid" />
+        <meta property="og:url" content="https://www.fluidigrid.com" />
+        <meta property="og:image" content="/favicon.svg" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Fluidigrid" />
+        <meta
+          name="twitter:description"
+          content="Simple and lightweight CSS grid system for constructing responsive and fluid layouts."
+        />
+        <meta name="twitter:site" content="https://www.fluidigrid.com" />
+        <meta name="twitter:creator" content="Boris Kirov" />
+        <meta name="twitter:image" content="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
       </Head>
 
       <grid>
-        <div class="cs1 ce4 sticky">
-          <h6>CSS Framework</h6>
+        <div class="cs1 ce3 sticky">
           <h1>Fluidigrid</h1>
           <p>
             Fluidigrid is a simple and lightweight CSS grid system for
@@ -77,7 +99,18 @@ export default function Home() {
         </div>
       </grid>
 
-      <footer>@boriskirov</footer>
+      <footer>
+        <div className="grid">
+          <div className="cs1 ce1">
+            <Logo />
+          </div>
+          <div className="cs2 ce12">
+            <Link href="https://boriskirov.cc">
+              <a>@boriskirov</a>
+            </Link>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

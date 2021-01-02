@@ -49,6 +49,10 @@ h3 {
   margin: var(--space-xl) 0;
 }
 
+footer {
+  margin: var(--space-xxxl) 0;
+}
+
 .demo {
   border: 4px solid var(--light-color);
   padding: 1vw 0;

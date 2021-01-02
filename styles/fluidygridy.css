@@ -2,8 +2,8 @@
   /* Grid related var*/
   --grid-tc-12: repeat(12, 1fr);
   --grid-tc-1: repeat(1, 1fr);
-  --grid-gap: 1.25vw;
-  --grid-gap-s: 1.25vw; /* if you want to use specific value for smaller screens */
+  --grid-gap: 5vw;
+  --grid-gap-s: 5vw; /* if you want to use specific value for smaller screens */
 }
 
 /* Normalizer */
