@@ -8,8 +8,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Fluidigrid</title>
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="./public/favicon.svg" />
         <meta name="description" content="CSS Grid system" />
+        <meta name="image" property="og:image" content="./public/favicon.svg" />
         <meta property="og:type" content="website" />
         <meta name="og:title" property="og:title" content="Fluidigrid" />
         <meta
@@ -19,7 +20,7 @@ export default function Home() {
         />
         <meta property="og:site_name" content="Fluidigrid" />
         <meta property="og:url" content="https://www.fluidigrid.com" />
-        <meta property="og:image" content="/favicon.svg" />
+        <meta property="og:image" content="./public/favicon.svg" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Fluidigrid" />
         <meta
@@ -28,8 +29,9 @@ export default function Home() {
         />
         <meta name="twitter:site" content="https://www.fluidigrid.com" />
         <meta name="twitter:creator" content="Boris Kirov" />
-        <meta name="twitter:image" content="/favicon.svg" />
-        <link rel="apple-touch-icon" href="/favicon.svg" />
+        <meta name="twitter:image" content="./public/favicon.svg" />
+        <link rel="apple-touch-icon" href="./public/favicon.svg" />
+        <meta name="author" content="Boris Kirov" />
       </Head>
 
       <grid>
