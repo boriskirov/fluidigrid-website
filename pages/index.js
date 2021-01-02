@@ -66,6 +66,15 @@ export default function Home() {
             </li>
           </ul>
         </div>
+        <div className="cs5 ce12">
+          <h3>Examples</h3>
+          <iframe
+            src="https://codesandbox.io/embed/infallible-haze-d6ttt?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=preview"
+            title="Fluidigrid"
+            allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+            sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+          ></iframe>
+        </div>
       </grid>
 
       <footer>@boriskirov</footer>
