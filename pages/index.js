@@ -80,31 +80,22 @@ export default function Home() {
           <h3>Structure</h3>
           <p>
             Fluidigrid setup is simple, it is based on 12 column
-            <code>grid-template-columns</code>. Each of the 12 cells are using
+            <code> grid-template-columns</code>. Each of the 12 cells are using
             the <code>fr </code>
             (fractional unit). When going belowe <code>1024px</code> the layout
             switches the <code>1fr</code>.
           </p>
         </div>
         <div className="cs5 ce12">
-          <h3>Responsive</h3>
-          <p>
-            There is no need to think about responsiveness as the grid is
-            handling well the device-size. For best experience Fluidigridy
-            support simple rule for under 1024px to turn into 1 grid layout, and
-            every cell will use the <code>1fr</code> fractional free unit space.
-          </p>
-        </div>
-        <div className="cs5 ce12">
           <h3>How to use</h3>
           <p>
             You can create your own <code>grid</code> html element or add a
-            class <code>.grid</code>
+            class <code>.grid </code>
             to the wrapper you want to create the grid layout. Then you should
             declare start and values for each of your columns to create the
             layout. Fluidigrid comes with pre-declared naming convention, we use
-            <code>cs[n]</code> for <code>column-start[value]</code> and{' '}
-            <code>ce[n]</code> for <code>column-end-[value]</code>. For example
+            <code>cs[n]</code> for <code>grid-column-start:[n]</code> and{' '}
+            <code>ce[n]</code> for <code>grid-column-end:[n]</code>. For example
             if you want to declare a column which starts from the first to last
             column you will declare <code>cs1 ce12</code>.
           </p>
@@ -119,8 +110,8 @@ export default function Home() {
               Change to <code>:root</code> values for customization
             </li>
             <li>
-              <a href="css-generator">Fluidigrid Generator</a> to create your
-              own naming convention for custom experience.
+              <a href="/generator">Fluidigrid Generator</a> to create your own
+              naming convention for custom experience.
             </li>
           </ul>
         </div>
@@ -154,7 +145,10 @@ export default function Home() {
               </a>
             </li>
             <li>
-              <a href="https://codepen.io/bkirov/pen/VwKXeKj" target="_blank">
+              <a
+                href="https://github.com/Fluiditype/Fluidigrid"
+                target="_blank"
+              >
                 Github
               </a>
             </li>
@@ -163,8 +157,12 @@ export default function Home() {
         <div className="cs5 ce12">
           <h3>Contributions</h3>
           <p>
-            If you want you can always contribute and ask for more, this would
-            help us create something more meaningful.
+            If you want you can always contribute in{' '}
+            <a href="https://github.com/Fluiditype/Fluidigrid" target="_blank">
+              Github
+            </a>{' '}
+            and ask for more, this would help us create something more
+            meaningful.
           </p>
         </div>
       </div>
