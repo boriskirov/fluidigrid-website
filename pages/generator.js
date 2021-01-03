@@ -39,8 +39,10 @@ div[class~="${columnEndName}${i}"] {grid-column-end: ${i + 1};}
 export default function Generator() {
   return (
     <div className="grid">
-      <div className="cs1 ce6">
+      <div className="cs1 ce12">
         <a href="/">Go back</a>
+      </div>
+      <div className="cs1 ce6">
         <form>
           <input id="grid" type="text" value="vv" />
           <input id="start" type="text" value="cs" />{' '}
