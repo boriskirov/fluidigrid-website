@@ -49,8 +49,8 @@ export default function Home() {
         <div class="cs1 ce3 sticky">
           <h1>Fluidigrid</h1>
           <p>
-            Fluidigrid is a simple and lightweight CSS grid system for
-            constructing responsive and fluid layouts.
+            Fluidigrid is a simple and lightweight CSS helper for building quick
+            and efficient layouts.
           </p>
           <a
             className="button-donwload"
@@ -62,24 +62,27 @@ export default function Home() {
         </div>
         <ExampleGrid />
         <div className="cs5 ce12">
-          <h3>Structure</h3>
+          <h3>Getting started</h3>
           <p>
-            Let's skip the chitchat and get down to the nitty-gritty.The
-            Fluidigrid setup is simple. It is based on 12 column
-            grid-template-collumns, with the power of the <code>fr</code>{' '}
-            (fractional) unit, which stands for 1 part of the available space.
-            So you have <code>12fr</code> creating the 12 cells of the layout.{' '}
+            You can copy the{' '}
+            <a href="github.com" target="_blank">
+              raw
+            </a>{' '}
+            file and add it to your project.
+          </p>
+          <p>
+            You can use the <a href="cssgenerator">Fluidigrid Generator</a> to
+            create your own naming convention for custom experience.
           </p>
         </div>
         <div className="cs5 ce12">
-          <h3>How to use</h3>
+          <h3>Structure</h3>
           <p>
-            You can either create a custom wrapper with name grid or add class
-            name to your wrapper .grid. You should add a start and end class to
-            each children element in order to create your layout. Use the cs
-            <code>n</code> for defining the starting collumn-line of your of
-            your item. Use ce<code>n</code> to define how many columns your item
-            will span, or which column you define as an end line.
+            Fluidigrid setup is simple, it is based on 12 column
+            <code>grid-template-columns</code>. Each of the 12 cells are using
+            the <code>fr </code>
+            (fractional unit). When going belowe <code>1024px</code> the layout
+            switches the <code>1fr</code>.
           </p>
         </div>
         <div className="cs5 ce12">
@@ -92,15 +95,31 @@ export default function Home() {
           </p>
         </div>
         <div className="cs5 ce12">
-          <h3>Easy to adopt</h3>
+          <h3>How to use</h3>
+          <p>
+            You can create your own <code>grid</code> html element or add a
+            class <code>.grid</code>
+            to the wrapper you want to create the grid layout. Then you should
+            declare start and values for each of your columns to create the
+            layout. Fluidigrid comes with pre-declared naming convention, we use
+            <code>cs[n]</code> for <code>column-start[value]</code> and{' '}
+            <code>ce[n]</code> for <code>column-end-[value]</code>. For example
+            if you want to declare a column which starts from the first to last
+            column you will declare <code>cs1 ce12</code>.
+          </p>
+        </div>
+        <div className="cs5 ce12">
+          <h3>Easy to adapt</h3>
           <ul>
             <li>
               <p>2KB file</p>
             </li>
-            <li>Change to root values for better customization</li>
             <li>
-              <a href="css-generator">CSS Genereator</a> for creating your own
-              naming convention.
+              Change to <code>:root</code> values for customization
+            </li>
+            <li>
+              <a href="css-generator">Fluidigrid Generator</a> to create your
+              own naming convention for custom experience.
             </li>
           </ul>
         </div>
@@ -139,6 +158,13 @@ export default function Home() {
               </a>
             </li>
           </ul>
+        </div>
+        <div className="cs5 ce12">
+          <h3>Contributions</h3>
+          <p>
+            If you want you can always contribute and ask for more, this would
+            help us create something more meaningful.
+          </p>
         </div>
       </grid>
 

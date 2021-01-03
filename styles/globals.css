@@ -51,7 +51,7 @@ h3 {
 }
 
 footer {
-  margin: var(--space-xxxl) 0;
+  margin: var(--space-xxxxxl) 0;
 }
 
 .demo {
@@ -116,5 +116,13 @@ ul {
   }
   .sticky {
     position: initial;
+  }
+  .sources {
+    display: initial;
+    margin: 0 0 0 var(--space-xxl);
+  }
+
+  .sources > li {
+    margin: 0 var(--space-l);
   }
 }
