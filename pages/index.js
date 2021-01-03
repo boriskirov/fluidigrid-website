@@ -52,10 +52,16 @@ export default function Home() {
             Fluidigrid is a simple and lightweight CSS grid system for
             constructing responsive and fluid layouts.
           </p>
-          <button>Download</button>
+          <a
+            className="button-donwload"
+            href="https://raw.githubusercontent.com/Fluiditype/fluiditype/master/fluidtype.css"
+            target="_blank"
+          >
+            Download
+          </a>
         </div>
         <ExampleGrid />
-        <div class="cs5 ce12">
+        <div className="cs5 ce12">
           <h3>Structure</h3>
           <p>
             Let's skip the chitchat and get down to the nitty-gritty.The
@@ -65,7 +71,7 @@ export default function Home() {
             So you have <code>12fr</code> creating the 12 cells of the layout.{' '}
           </p>
         </div>
-        <div class="cs5 ce12">
+        <div className="cs5 ce12">
           <h3>How to use</h3>
           <p>
             You can either create a custom wrapper with name grid or add class
@@ -76,7 +82,7 @@ export default function Home() {
             will span, or which column you define as an end line.
           </p>
         </div>
-        <div class="cs5 ce12">
+        <div className="cs5 ce12">
           <h3>Responsive</h3>
           <p>
             There is no need to think about responsiveness as the grid is
@@ -85,19 +91,16 @@ export default function Home() {
             every cell will use the <code>1fr</code> fractional free unit space.
           </p>
         </div>
-        <div class="cs5 ce12">
+        <div className="cs5 ce12">
           <h3>Easy to adopt</h3>
           <ul>
             <li>
               <p>2KB file</p>
             </li>
+            <li>Change to root values for better customization</li>
             <li>
-              Change the each of the variables in the file to make it more
-              custom for your own project.
-            </li>
-            <li>
-              Change the naming of your fludigrid file by using the{' '}
-              <a href="css-generator">CSS Genereator</a>
+              <a href="css-generator">CSS Genereator</a> for creating your own
+              naming convention.
             </li>
           </ul>
         </div>
@@ -111,20 +114,31 @@ export default function Home() {
           ></iframe>
         </div>
         <div className="cs5 ce12">
-          <iframe
-            scrolling="no"
-            title="Fluidigrid"
-            src="https://codepen.io/bkirov/embed/VwKXeKj?height=265&theme-id=dark&default-tab=css,result"
-            frameborder="no"
-            loading="lazy"
-            allowtransparency="true"
-            allowfullscreen="true"
-          >
-            See the Pen{' '}
-            <a href="https://codepen.io/bkirov/pen/VwKXeKj">Fluidigrid</a> by
-            Boris Kirov (<a href="https://codepen.io/bkirov">@bkirov</a>) on{' '}
-            <a href="https://codepen.io">CodePen</a>.
-          </iframe>
+          <ul className="sources">
+            <li>
+              <a
+                href="https://codesandbox.io/s/fluidigrid-d6ttt?file=/src/App.js"
+                target="_blank"
+              >
+                CodeSandbox
+              </a>
+            </li>
+            <li>
+              <a href="https://codepen.io/bkirov/pen/VwKXeKj" target="_blank">
+                Codepen
+              </a>
+            </li>
+            <li>
+              <a href="https://glitch.com/edit/#!/fluidigridy" target="_blank">
+                Glitch
+              </a>
+            </li>
+            <li>
+              <a href="https://codepen.io/bkirov/pen/VwKXeKj" target="_blank">
+                Github
+              </a>
+            </li>
+          </ul>
         </div>
       </grid>
 
