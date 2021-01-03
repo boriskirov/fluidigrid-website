@@ -4,7 +4,7 @@ Fluidigrid is a simple and lightweight CSS helper for building quick and efficie
 
 ### Getting started
 
-- You can copy the [raw](github.com) file and add it to your project.
+- You can copy the [raw](https://raw.githubusercontent.com/Fluiditype/Fluidigrid/main/fluidigrid.css) file and add it to your project.
 - You can use the [Fluidigrid Generator] (cssgenerator) to create your own naming convention for custom experience.
 - You can standart link or import via PostCSS
   `<link rel="stylesheet" href="boriskirov.cc/fluidigrid.css">`
@@ -32,7 +32,7 @@ You can create your own `grid` html element or add a class `.grid` to the wrappe
 
 #### License
 
-Licensed under the [MIT License](MIT.com).
+Licensed under the [MIT License](https://github.com/Fluiditype/Fluidigrid/blob/main/LICENSE).
 
 #### Contributions
 

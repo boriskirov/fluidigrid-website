@@ -45,7 +45,7 @@ export default function Home() {
         <meta name="author" content="Boris Kirov" />
       </Head>
 
-      <grid>
+      <div className="grid">
         <div class="cs1 ce3 sticky">
           <h1>Fluidigrid</h1>
           <p>
@@ -54,7 +54,7 @@ export default function Home() {
           </p>
           <a
             className="button-donwload"
-            href="/fluidigrid.css.zip"
+            href="https://github.com/Fluiditype/Fluidigrid/archive/v1.0.1.tar.gz"
             target="_blank"
           >
             Download
@@ -71,7 +71,7 @@ export default function Home() {
             file and add it to your project.
           </p>
           <p>
-            You can use the <a href="cssgenerator">Fluidigrid Generator</a> to
+            You can use the <a href="/generator">Fluidigrid Generator</a> to
             create your own naming convention for custom experience.
           </p>
         </div>
@@ -166,7 +166,7 @@ export default function Home() {
             help us create something more meaningful.
           </p>
         </div>
-      </grid>
+      </div>
 
       <footer>
         <div className="grid">
