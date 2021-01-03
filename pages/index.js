@@ -54,7 +54,7 @@ export default function Home() {
           </p>
           <a
             className="button-donwload"
-            href="https://raw.githubusercontent.com/Fluiditype/fluiditype/master/fluidtype.css"
+            href="/fluidigrid.css.zip"
             target="_blank"
           >
             Download
@@ -174,7 +174,7 @@ export default function Home() {
             <Logo />
           </div>
           <div className="cs2 ce12">
-            <Link href="https://boriskirov.cc">
+            <Link href="https://boriskirov.cc" target="_blank">
               <a>@boriskirov</a>
             </Link>
           </div>
