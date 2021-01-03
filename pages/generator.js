@@ -60,7 +60,7 @@ export default function Generator() {
       </div>
       <div className="cs1 ce6">
         <code id="msg">
-          <pre>Click Generate to create your custom fluidgrid.</pre>
+          <pre>Your custom generation will appear here.</pre>
         </code>
       </div>
     </div>
