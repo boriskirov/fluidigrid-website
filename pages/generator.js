@@ -1,14 +1,14 @@
-function generate(columnStartName, columnEndName, gridSystem) {
-  columnStartName = document.getElementById('start').value;
-  columnEndName = document.getElementById('end').value;
-  gridSystem = document.getElementById('grid').value;
+const generate = () => {
+  const columnStartName = document.getElementById('start').value;
+  const columnEndName = document.getElementById('end').value;
+  let gridName = document.getElementById('grid').value;
 
-  let gridName = '';
+  let gridSystem = '';
   let columnStartStyles = '';
   let columnEndStyles = '';
 
   gridSystem = `
-/* Fluidi-gridy system */
+/* Fluidigrid system */
 
 grid, .${gridName} {
 display: grid;
@@ -34,7 +34,7 @@ div[class~="${columnEndName}${i}"] {grid-column-end: ${i + 1};}
   }
   let pre = document.querySelector('#msg pre');
   pre.textContent = [gridSystem + columnStartStyles + columnEndStyles];
-}
+};
 
 export default function Generator() {
   return (
@@ -45,14 +45,17 @@ export default function Generator() {
       <div className="cs1 ce6">
         <h3>Fluidgrid Custom CSS generator</h3>
         <form>
-          <input id="grid" type="text" value="vv" />
-          <input id="start" type="text" value="cs" />{' '}
-          <input id="end" type="text" value="ce" />
+          <label>Grid </label>
+          <input id="grid" type="text" placeholder="fluidigrid" />
+          <label>Column Start </label>
+          <input id="start" type="text" placeholder="cs" />{' '}
+          <label>Column End </label>
+          <input id="end" type="text" placeholder="ce" />
           <a
             className="button-donwload"
             type="button"
             value="Generate CSS"
-            onClick="generate();"
+            onClick={() => generate()}
           >
             Generate
           </a>
