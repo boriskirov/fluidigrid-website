@@ -98,7 +98,7 @@ grid.example {
 }
 
 ul {
-  margin: 0 0 0 var(--space-xxxxxl);
+  margin: 0 0 0 var(--space-xxl);
 }
 
 .sources {
