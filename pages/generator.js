@@ -43,6 +43,7 @@ export default function Generator() {
         <a href="/">Go back</a>
       </div>
       <div className="cs1 ce6">
+        <h3>Fluidgrid Custom CSS generator</h3>
         <form>
           <input id="grid" type="text" value="vv" />
           <input id="start" type="text" value="cs" />{' '}

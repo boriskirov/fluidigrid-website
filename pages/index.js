@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <html lang="en"></html>
         <title>Fluidigrid</title>
         <link rel="icon" href="/favicon.svg" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

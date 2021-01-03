@@ -50,6 +50,20 @@ h3 {
   margin: var(--space-xl) 0;
 }
 
+input {
+  display: inline-block;
+  text-decoration: none;
+  padding: var(--space-l) var(--space-l);
+  border: 2px solid var(--light-color);
+  background-color: transparent;
+  color: var(--light-color);
+  -moz-border-radius: 1rem;
+  border-radius: 4px;
+  font-size: var(--fontSize);
+  margin: var(--space-l) 0;
+  width: 100%;
+}
+
 footer {
   margin: var(--space-xxxxxl) 0;
 }
