@@ -46,11 +46,21 @@ export default function Generator() {
         <h3>Fluidgrid Custom CSS generator</h3>
         <form>
           <label>Grid </label>
-          <input id="grid" type="text" placeholder="fluidigrid" />
+          <input
+            id="grid"
+            type="text"
+            placeholder="fluidigrid"
+            defaultValue="fluidigrid"
+          />
           <label>Column Start </label>
-          <input id="start" type="text" placeholder="cs" />{' '}
+          <input
+            id="start"
+            type="text"
+            placeholder="cs"
+            defaultValue="cs"
+          />{' '}
           <label>Column End </label>
-          <input id="end" type="text" placeholder="ce" />
+          <input id="end" type="text" placeholder="ce" defaultValue="ce" />
           <a
             className="button-donwload"
             type="button"
