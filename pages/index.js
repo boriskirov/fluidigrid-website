@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <html lang="en"></html>
         <title>Fluidigrid</title>
-        <link rel="icon" href="/fluidigrids.gif" />
+        <link rel="icon" href="/fluidigrid-a.gif" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="CSS Grid system" />
         <meta
@@ -173,7 +173,7 @@ export default function Home() {
       <footer>
         <div className="grid">
           <div className="cs1 ce1">
-            <img src="fluidigrid.gif" height="64" />
+            <img src="fluidigrids.gif" height="64" />
           </div>
           <div className="cs2 ce12">
             <Link href="https://boriskirov.cc" target="_blank">
