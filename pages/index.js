@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <html lang="en"></html>
         <title>Fluidigrid</title>
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/fluidigrids.gif" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="CSS Grid system" />
         <meta
