@@ -66,7 +66,10 @@ export default function Home() {
           <h3>Getting started</h3>
           <p>
             You can copy the{' '}
-            <a href="github.com" target="_blank">
+            <a
+              href="https://raw.githubusercontent.com/Fluiditype/Fluidigrid/main/fluidigrid.css"
+              target="_blank"
+            >
               raw
             </a>{' '}
             file and add it to your project.
@@ -93,7 +96,7 @@ export default function Home() {
             class <code>.grid </code>
             to the wrapper you want to create the grid layout. Then you should
             declare start and values for each of your columns to create the
-            layout. Fluidigrid comes with pre-declared naming convention, we use
+            layout. Fluidigrid comes with pre-declared naming convention, we use{' '}
             <code>cs[n]</code> for <code>grid-column-start:[n]</code> and{' '}
             <code>ce[n]</code> for <code>grid-column-end:[n]</code>. For example
             if you want to declare a column which starts from the first to last
