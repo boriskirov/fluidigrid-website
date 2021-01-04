@@ -61,7 +61,13 @@ export default function Home() {
             Download
           </a>
         </div>
-        <ExampleGrid />
+        <div className="cs5 ce12">
+          <iframe
+            src="https://my.spline.design/fluidigrid-a6bee4ebb22803812da1a8aef9e1f294/"
+            frameborder="0"
+          ></iframe>
+        </div>
+        {/* <ExampleGrid /> */}
         <div className="cs5 ce12">
           <h3>Getting started</h3>
           <p>
