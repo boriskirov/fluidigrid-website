@@ -14,11 +14,11 @@ export default function ExampleGrid() {
         <div class="cs10 ce12 demo">
           <p>10-12</p>
         </div>
+        <div class="cs1 ce3 demo">
+          <p>1-3</p>
+        </div>
         <div class="cs4 ce6 demo">
           <p>4-6</p>
-        </div>
-        <div class="cs7 ce8 demo">
-          <p>7-8</p>
         </div>
         <div class="cs1 ce1 demo">
           <p>1-1</p>
@@ -63,7 +63,7 @@ export default function ExampleGrid() {
           <p>1-9</p>
         </div>
         <div class="cs4 ce12 demo">
-          <p>-12</p>
+          <p>4-12</p>
         </div>
         <div class="cs2 ce5 demo">
           <p>2-5</p>
