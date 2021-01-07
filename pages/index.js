@@ -9,7 +9,28 @@ export default function Home() {
       <Head>
         <html lang="en"></html>
         <title>Fluidigrid</title>
-        <link rel="icon" href="/fluidigrid-a.gif" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#7b3a27" />
+        <meta name="theme-color" content="#ffffff" />
+
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="CSS Grid system" />
         <meta
@@ -42,7 +63,6 @@ export default function Home() {
           name="twitter:image"
           content="https://i.ibb.co/9hv9H8k/thumbnail.png/?1"
         />
-        <link rel="apple-touch-icon" href="/favicon.svg" />
         <meta name="author" content="Boris Kirov" />
       </Head>
 
