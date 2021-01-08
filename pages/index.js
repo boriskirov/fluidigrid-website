@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import ExampleGrid from '../components/example';
-import Logo from '../components/logo';
 
 export default function Home() {
   return (

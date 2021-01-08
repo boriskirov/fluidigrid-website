@@ -5,7 +5,7 @@ Fluidigrid is a simple and lightweight CSS helper for building quick and efficie
 ### Getting started
 
 - You can copy the [raw](https://raw.githubusercontent.com/Fluiditype/Fluidigrid/main/fluidigrid.css) file and add it to your project.
-- You can use the [Fluidigrid Generator] (cssgenerator) to create your own naming convention for custom experience.
+- You can use the [Fluidigrid Generator](https://fluidigrid.com/generator) to create your own naming convention for custom experience.
 - You can standart link or import via PostCSS
   `<link rel="stylesheet" href="boriskirov.cc/fluidigrid.css">`
   `import styles from 'boriskirov.cc/fluidigrid.css'`
@@ -21,8 +21,8 @@ You can create your own `grid` html element or add a class `.grid` to the wrappe
 ### Easy to use
 
 - 2KB file
-- Change to `:root`values for customization
-- Use the [Fluidigrid Generator] (cssgenerator) to create your own naming convention for custom experienc
+- Change to `:root` values for customization
+- Use the [Fluidigrid Generator](https://fluidigrid.com/generator) to create your own naming convention for custom experienc
 
 #### Check the examples
 
@@ -36,4 +36,4 @@ Licensed under the [MIT License](https://github.com/Fluiditype/Fluidigrid/blob/m
 
 #### Contributions
 
-We are always working on improving Fluiditype, if you want you can always contribute and ask for more, this would help us create something more meaningful.
+Fluidigrid is an open source project, if you want you can always contribute and ask for more, this would help us create something more meaningful.
