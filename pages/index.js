@@ -104,7 +104,7 @@ export default function Home() {
             Fluidigrid setup is simple, it is based on 12 column
             <code> grid-template-columns</code>. Each of the 12 cells are using
             the <code>fr </code>
-            (fractional unit). When going belowe <code>1024px</code> the layout
+            (fractional unit). When going below <code>1024px</code> the layout
             switches the <code>1fr</code>.
           </p>
         </div>
