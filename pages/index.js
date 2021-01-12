@@ -35,7 +35,7 @@ export default function Home() {
         <meta
           name="image"
           property="og:image"
-          content="https://i.ibb.co/9hv9H8k/thumbnail.png/?1"
+          content="https://i.ibb.co/9hv9H8k/thumbnail.png?1"
         />
         <meta property="og:type" content="website" />
         <meta name="og:title" property="og:title" content="Fluidigrid" />
@@ -48,7 +48,7 @@ export default function Home() {
         <meta property="og:url" content="https://www.fluidigrid.com" />
         <meta
           property="og:image"
-          content="https://i.ibb.co/9hv9H8k/thumbnail.png/?1"
+          content="https://i.ibb.co/9hv9H8k/thumbnail.png?1"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Fluidigrid" />
@@ -60,7 +60,7 @@ export default function Home() {
         <meta name="twitter:creator" content="Boris Kirov" />
         <meta
           name="twitter:image"
-          content="https://i.ibb.co/9hv9H8k/thumbnail.png/?1"
+          content="https://i.ibb.co/9hv9H8k/thumbnail.png?1"
         />
         <meta name="author" content="Boris Kirov" />
       </Head>
